@@ -1,5 +1,5 @@
 # 📚 Primeiro Semestre
-a
+
 Este repositório contém os trabalhos e projetos desenvolvidos durante o **primeiro semestre** do curso de **Ciência da Computação**.
 
 ## 📖 Disciplinas
