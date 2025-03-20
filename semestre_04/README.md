@@ -20,34 +20,16 @@ Este repositório contém os trabalhos e projetos desenvolvidos durante o **quar
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ## 🚀 Projetos e Trabalhos de Banco de Dados
-- **[]()**
-- **[]()**
-- **[]()**
 
 ## ℹ️ Sobre os Projetos e Trabalhos de Banco de Dados
-**Trabalho 1 - a:**  
-**Trabalho 2 - a:**  
-**Trabalho 3 - a:**  
 
 ## 🚀 Projetos e Trabalhos de Organização de Computadores
-- **[]()**
-- **[]()**
-- **[]()**
 
 ## ℹ️ Sobre os Projetos e Trabalhos de Organização de Computadores
-**Trabalho 1 - a:**  
-**Trabalho 2 - a:**  
-**Trabalho 3 - a:**  
 
 ## 🚀 Projetos e Trabalhos de Programação Web
-- **[]()**
-- **[]()**
-- **[]()**
 
 ## ℹ️ Sobre os Projetos e Trabalhos de Programação Web
-**Trabalho 1 - a:**  
-**Trabalho 2 - a:**  
-**Trabalho 3 - a:**  
 
 ## 📝 Observação
 Alguns projetos deste semestre foram desenvolvidos em grupo. No entanto, para manter a privacidade dos meus colegas, não citarei seus nomes neste repositório.
