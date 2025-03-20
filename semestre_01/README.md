@@ -18,7 +18,7 @@ Este repositório contém os trabalhos e projetos desenvolvidos durante o **prim
 - **[Trabalho 3 - Jogo Da Memória](./algoritmos_e_programacao/03_jogo_da_memoria/jogo_da_memoria.cpp)**
 
 ## ℹ️ Sobre os Projetos e Trabalhos de Algoritmos e Programação
-**Trabalho 1 - Jogo Livre:** O nosso primeiro trabalho foi criar um Jogo Livre, que em resumo é um jogo simples usando a criatividade, como era o primeiro trabalho nosso e como a gente só tinha apredendidos poucas coisas, só usamos Portugol.
+**Trabalho 1 - Jogo Livre:** O nosso primeiro trabalho foi criar um Jogo Livre, que em resumo é um jogo simples usando a criatividade onde nosso objetivo é pegar pizzas no menor tempo, como era o primeiro trabalho nosso e como a gente só tinha apredendidos poucas coisas, só usamos Portugol.
 
 **Trabalho 2 - Flappy Bird:** O nosso segundo trabalho foi arrumar um código que o professor mostrou para a gente, o código na época era bem avançado para o conhecimento que tinhamos, então as mudanças que era para fazer era de sintaxe básicas.
 
