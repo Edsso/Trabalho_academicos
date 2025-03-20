@@ -68,8 +68,7 @@ Dessa forma, posso manter um **registro organizado** da minha evolução acadêm
 ### 📌 **[Segundo Semestre](./semestre_02/README.md)**
 - [**Algoritmos e Programação II**](./semestre_02)   
 - Cálculo I  
-- Circuitos Digitais  
-- [**Introdução à Programação em Python**](./semestre_02)
+- Circuitos Digitais
 
 ### 📌 **[Terceiro Semestre](./semestre_03/README.md)**
 - [**Arquitetura e Organização de Processadores**](./semestre_03)

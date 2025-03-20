@@ -3,6 +3,7 @@
 Este repositório contém os trabalhos e projetos desenvolvidos durante o **primeiro semestre** do curso de **Ciência da Computação**.
 
 ## 📖 Disciplinas
+- Álgebra Linear e Geometria Analítica I 
 - **Algoritmos e Programação**
 - Educação Ambiental e Ética
 - Introdução à Ciência da Computação
