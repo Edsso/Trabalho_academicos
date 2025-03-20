@@ -1,0 +1,31 @@
+Links dos projetos no Figma:
+
+//////////////////////////////////////////////// Protótipos ////////////////////////////////////////////////
+
+(Primeiro protótipo)
+https://www.figma.com/design/j36nEpEOzGXHfzrgzJOh7b/Untitled?node-id=0-1&node-type=canvas&t=fpFgtE77pRioDYQY-0
+
+
+(Segundo protótipo)
+https://www.figma.com/design/1PZs9MCqBu3kFdOQJt6g2l/Untitled?node-id=0-1&node-type=canvas&t=05OzksfDk1j56c3L-0
+
+
+(Terceiro protótipo)
+https://www.figma.com/design/sBGKpycPmmjdWRE9AuTIDJ/Pr%C3%A9-Projeto?node-id=0-1&node-type=canvas&t=uZMec2C8cVuhPdYL-0
+
+
+(Quarto protótipo)
+https://www.figma.com/design/tISwP3KlUtBa48sdsFxxOT/Site-Fisioterapia-ProjetoExtensao?node-id=0-1&node-type=canvas&t=d8eu02uaODVIQRU6-0
+
+
+//////////////////////////////// Protótipo definitivo que fizemos no site ////////////////////////////////
+
+(Como seria o Sistema Web Completo)
+https://www.figma.com/design/tISwP3KlUtBa48sdsFxxOT/Site-Fisioterapia-ProjetoExtensao?node-id=188-223&node-type=frame&t=DGaSIF5Ebb1ZF6LL-0
+
+
+(Como seria em um Dispositivo Móvel)
+https://www.figma.com/proto/tISwP3KlUtBa48sdsFxxOT/Site-Fisioterapia-ProjetoExtensao?node-id=48-86&starting-point-node-id=48%3A86
+
+(Banner feito para o site)
+https://www.figma.com/design/sbPawt9FQF94fEFRCeLqd5/Banner?node-id=0-1&node-type=canvas&t=ql8LfJcUD7fcS9ds-0

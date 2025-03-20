@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Retro - Assentos</title>
+    <link rel="stylesheet" href="./css/assentos.css">
+</head>
+<body>
+
+    <h1> Selecione seu Assento </h1>
+
+    <div id="content">
+        <aside id="barra-lateral">
+            <img id="filme-img" src="" alt="Imagem do filme">
+            <p class="nome" id="filme-nome"></p>
+            <p id="filme-horario"></p>
+            <p id="filme-tempo"></p>
+            <p id="filme-salas"></p>
+        </aside>
+
+        <main id="seleciona-assento">
+            <ol type="A">
+                <li>
+                    <span class="linha">H</span>
+                    <ul class="assentos-linha">
+                        <li class="disponivel" onclick="selecionarAssento(this, 'H1')">1</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'H2')">2</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'H3')">3</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'H4')">4</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'H5')">5</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'H6')">6</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'H7')">7</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'H8')">8</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'H9')">9</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'H10')">10</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'H11')">11</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'H12')">12</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="linha">G</span>
+                    <ul class="assentos-linha">
+                        <li class="disponivel" onclick="selecionarAssento(this, 'G1')">1</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'G2')">2</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'G3')">3</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'G4')">4</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'G5')">5</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'G6')">6</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'G7')">7</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'G8')">8</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'G9')">9</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'G10')">10</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'G11')">11</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'G12')">12</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="linha">F</span>
+                    <ul class="assentos-linha">
+                        <li class="disponivel" onclick="selecionarAssento(this, 'F1')">1</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'F2')">2</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'F3')">3</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'F4')">4</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'F5')">5</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'F6')">6</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'F7')">7</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'F8')">8</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'F9')">9</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'F10')">10</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'F11')">11</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'F12')">12</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="linha">E</span>
+                    <ul class="assentos-linha">
+                        <li class="disponivel" onclick="selecionarAssento(this, 'E1')">1</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'E2')">2</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'E3')">3</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'E4')">4</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'E5')">5</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'E6')">6</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'E7')">7</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'E8')">8</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'E9')">9</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'E10')">10</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'E11')">11</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'E12')">12</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="linha">D</span>
+                    <ul class="assentos-linha">
+                        <li class="disponivel" onclick="selecionarAssento(this, 'D1')">1</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'D2')">2</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'D3')">3</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'D4')">4</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'D5')">5</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'D6')">6</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'D7')">7</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'D8')">8</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'D9')">9</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'D10')">10</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'D11')">11</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'D12')">12</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="linha">C</span>
+                    <ul class="assentos-linha">
+                        <li class="disponivel" onclick="selecionarAssento(this, 'C1')">1</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'C2')">2</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'C3')">3</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'C4')">4</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'C5')">5</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'C6')">6</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'C7')">7</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'C8')">8</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'C9')">9</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'C10')">10</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'C11')">11</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'C12')">12</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="linha">B</span>
+                    <ul class="assentos-linha">
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B1')">1</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B2')">2</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B3')">3</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B4')">4</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B5')">5</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B6')">6</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B7')">7</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'B8')">8</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B9')">9</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B10')">10</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B11')">11</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'B12')">12</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="linha">A</span>
+                    <ul class="assentos-linha">
+                        <li class="selecionado" onclick="selecionarAssento(this, 'A1')">1</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'A2')">2</li>
+                        <li class="selecionado" onclick="selecionarAssento(this, 'A3')">3</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'A4')">4</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'A5')">5</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'A6')">6</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'A7')">7</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'A8')">8</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'A9')">9</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'A10')">10</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'A11')">11</li>
+                        <li class="disponivel" onclick="selecionarAssento(this, 'A12')">12</li>
+                    </ul>
+                </li>
+            </ol>
+        </main>
+    </div>
+
+    <section id="assento-selecionado-container">
+        <h2>TELA</h2>
+        <div class="preco"></div>
+        <button id="confirmar-btn" onclick="confirmarSelecionado()">Confirmar</button>
+    </section>
+    
+</body>
+<script type="text/javascript" src="./javascripts/assentos.js"></script>
+</html>

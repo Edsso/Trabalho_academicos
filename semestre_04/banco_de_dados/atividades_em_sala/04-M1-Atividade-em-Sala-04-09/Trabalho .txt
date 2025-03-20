@@ -1,0 +1,27 @@
+Olá professor o nosso trabalho será separado em 3 partes, primeiro o DER, Lógico e MER (O MER vai está no outro arquivo, caso a pdf não funcionar acessa o link: https://app.diagrams.net/#G1j7tn5naL4OgEcXkc7n9tTbKnL8Rqr9k5#%7B%22pageId%22%3A%22IKT_BQnYbPcKpB33kX4b%22%7D)
+
+////////////////////////////// DER //////////////////////////////
+
+https://lucid.app/lucidchart/9085e913-3d4e-4529-966a-f05a164d9555/edit?beaconFlowId=A016C68D1B70D388&invitationId=inv_f15c6011-d869-4b60-bc72-e5c2aaa21ec5&page=0_0
+
+////////////////////////////// DER //////////////////////////////
+
+////////////////////////////// LÓGICO //////////////////////////////
+
+Telefone(ID, numero, ID_Pessoa)
+Endereço(ID, rua, numero, CEP, bairro, cidade, Estado)
+Pessoa(ID, nome, e-mail, ID_Endereço)
+
+Cliente(ID, CPF, data_nasc, ID_Pessoa)
+--Cliente_Consulta(ID, ID_Cliente, ID_Consulta)
+Consulta(ID, data_consulta, hora_consulta, paciente, medico, ID_Status)
+--Consulta_Medico(ID, ID_Consulta, ID_Medico)
+Medico(ID, crm, especialidade, ID_Pessoa)
+--Medico_Receita(ID,  ID_Medico, ID_Receita, ID_Cliente)
+Receita(ID, data_emissao)
+--Receita_Medicamento(ID, ID_Receita, ID_Medicamento, posologia, quantidade)
+Medicamento(ID, nome)
+
+Status(ID, agendado, cancelado, realizada)
+
+////////////////////////////// LÓGICO //////////////////////////////

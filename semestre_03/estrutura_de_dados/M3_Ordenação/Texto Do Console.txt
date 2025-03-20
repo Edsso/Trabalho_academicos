@@ -1,0 +1,61 @@
+Digite a quantidade de vetores (M): 10
+Digite o tamanho de cada vetor (N): 150000
+Digite a quantidade de execuções (X): 5
+
+Horário de início do programa: Fri Jul 05 13:55:28 2024
+
+Horário de início do método Insercao Direta: Fri Jul 05 13:55:28 2024
+Executando Insercao Direta...
+Tempo máximo: 12.4423 segundos
+Tempo mínimo: 0 segundos
+Tempo médio: 6.22535 segundos
+Horário de término do método Insercao Direta: Fri Jul 05 14:00:39 2024
+
+Horário de início do método Shell Sort: Fri Jul 05 14:00:39 2024
+Executando Shell Sort...
+Tempo máximo: 0.023021 segundos
+Tempo mínimo: 0.004005 segundos
+Tempo médio: 0.0190774 segundos
+Horário de término do método Shell Sort: Fri Jul 05 14:00:40 2024
+
+Horário de início do método Bolha: Fri Jul 05 14:00:40 2024
+Executando Bolha...
+Tempo máximo: 32.9159 segundos
+Tempo mínimo: 0 segundos
+Tempo médio: 28.654 segundos
+Horário de término do método Bolha: Fri Jul 05 14:24:33 2024
+
+Horário de início do método Quick Sort: Fri Jul 05 14:24:33 2024
+Executando Quick Sort...
+Tempo máximo: 0.01101 segundos
+Tempo mínimo: 0.001001 segundos
+Tempo médio: 0.00850782 segundos
+Horário de término do método Quick Sort: Fri Jul 05 14:24:33 2024
+
+Horário de início do método Selecao Direta: Fri Jul 05 14:24:33 2024
+Executando Selecao Direta...
+Tempo máximo: 11.2002 segundos
+Tempo mínimo: 9.72283 segundos
+Tempo médio: 9.8828 segundos
+Horário de término do método Selecao Direta: Fri Jul 05 14:32:48 2024
+
+Horário de início do método Merge Sort: Fri Jul 05 14:32:48 2024
+Executando Merge Sort...
+Tempo máximo: 0.023021 segundos
+Tempo mínimo: 0.014011 segundos
+Tempo médio: 0.0202182 segundos
+Horário de término do método Merge Sort: Fri Jul 05 14:32:49 2024
+
+Estatísticas gerais:
+Tempo máximo geral: 32.9159 segundos
+Tempo mínimo geral: 0 segundos
+Tempo médio geral: 7.46832 segundos
+
+Método que demorou mais: Bolha com tempo médio de 28.654 segundos
+Método que demorou menos: Quick Sort com tempo médio de 0.00850782 segundos
+Tempo médio geral dos métodos: 7.46832 segundos
+
+Horário de término do programa: Fri Jul 05 14:32:49 2024
+Tempo total de execução do programa: 2240.93 segundos
+
+Pressione qualquer tecla para continuar. . .

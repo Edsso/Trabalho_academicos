@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a visualização para dispositivos móveis -->
+    <title>Adicionar conteúdo</title> <!-- Título da página que aparece na aba do navegador -->
+
+    <!-- Link para o CSS do Bootstrap, utilizado para estilização e componentes -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Links para os arquivos CSS personalizados -->
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Estilo geral -->
+    <link rel="stylesheet" href="CSS/header.css"> <!-- Estilo do cabeçalho -->
+    <link rel="stylesheet" href="CSS/adicionar.css"> <!-- Estilo específico para a página de adicionar conteúdo -->
+    <link rel="stylesheet" href="CSS/footer.css"> <!-- Estilo do rodapé -->
+
+    <!-- Fonte personalizada do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Espaço reservado para carregar o cabeçalho dinamicamente -->
+        <div id="header-placeholder"></div>
+
+        <!-- Mini cabeçalho adicional com links rápidos -->
+        <div class="miniheader">
+            <a href="#contato">Contato</a> <!-- Link para a seção de contato -->
+            <a href="#whatsapp">WhatsApp</a> <!-- Link para o WhatsApp -->
+            <a href="#redesocial">Rede Social</a> <!-- Link para as redes sociais -->
+        </div>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <div class="container"> <!-- Contêiner centralizado e responsivo -->
+            <h1>Adicionar Informações nos Cards</h1> <!-- Título principal da página -->
+
+            <!-- Formulário para adicionar informações -->
+            <div class="form-container">
+                <!-- Campo para inserir a URL do vídeo -->
+                <div class="form-row">
+                    <label for="video-url">URL do Vídeo</label>
+                    <input type="text" id="video-url" placeholder="Insira a URL">
+                </div>
+
+                <!-- Campo para inserir o título do vídeo -->
+                <div class="form-row">
+                    <label for="video-title">Título</label>
+                    <input type="text" id="video-title" placeholder="Insira o título">
+                </div>
+
+                <!-- Campo para inserir a descrição do vídeo -->
+                <div class="form-row">
+                    <label for="video-description">Descrição</label>
+                    <textarea id="video-description" placeholder="Insira a descrição"></textarea>
+                </div>
+
+                <!-- Botão para adicionar as informações -->
+                <button id="add-button">Adicionar</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts externos -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> <!-- JS do Bootstrap -->
+    <script src="Scripts/scripts.js"></script> <!-- Arquivo de scripts personalizados -->
+</body>
+
+</html>

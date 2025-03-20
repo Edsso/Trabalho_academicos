@@ -1,0 +1,30 @@
+/* ===== ESTILIZAÇÃO DO BOTÃO (Ver mais +) ===== */
+
+/* Estiliza todos os botões com a classe '.btn' */
+.btn {
+    font-size: 30px; /* Define o tamanho da fonte como 30px */
+    background-color: #000; /* Define o fundo do botão como preto */
+    border: none; /* Remove a borda do botão */
+    padding-top: 12px; /* Adiciona 12px de preenchimento na parte superior */
+    padding-left: 7%; /* Adiciona 7% de preenchimento na parte esquerda */
+    padding-right: 7%; /* Adiciona 7% de preenchimento na parte direita */
+    padding-bottom: 12px; /* Adiciona 12px de preenchimento na parte inferior */
+}
+
+/* Efeito de hover (quando o mouse passa sobre o botão) */
+.btn:hover {
+    background-color: rgb(255, 220, 0); /* Altera a cor de fundo para amarelo */
+    color: black; /* Altera a cor do texto para preto */
+}
+
+/* Estiliza os botões com a classe '.btn-primary' */
+.btn-primary {
+    border-radius: 0%; /* Remove qualquer arredondamento nos cantos do botão */
+}
+
+/* Estiliza o botão 'Ver mais +' */
+#toggleConteudo {
+    position: relative; /* Define a posição relativa para poder manipular a posição com 'z-index' */
+    z-index: 10; /* Define a sobrecarga do botão, tornando-o visível acima de outros elementos */
+    margin-top: 20px; /* Adiciona uma margem de 20px acima do botão */
+}

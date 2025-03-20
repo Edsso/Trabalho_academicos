@@ -1,0 +1,63 @@
+/* ===== SEÇÃO DICAS ===== */
+
+/* Estilização geral da seção de dicas */
+.dicas {
+    background-color: #b9b9b9;
+    /* Define um fundo cinza claro */
+    padding: 8%;
+    /* Adiciona espaçamento interno em torno do conteúdo */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+/* ===== TÍTULO DICAS ===== */
+
+/* Estilo para o título dentro da seção de dicas */
+.dicas h1 {
+    padding-bottom: 2%;
+    /* Adiciona espaçamento abaixo do título */
+}
+
+/* ===== ESTILO DO VÍDEO ===== */
+
+/* Estilização para os elementos de vídeo */
+video {
+    max-width: 100%;
+    /* Garante que o vídeo nunca ultrapasse a largura do contêiner */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    border: 2px solid black;
+    /* Adiciona uma borda preta */
+}
+
+/* ===== BOTÕES E VÍDEOS ===== */
+
+/* Estilo compartilhado entre o botão de exibição do vídeo e o vídeo */
+.show-video-btn,
+.exercise-video {
+    position: relative;
+    /* Define a posição relativa para manipulação do layout */
+    z-index: 10;
+    /* Garante que esses elementos fiquem acima de outros elementos, se necessário */
+}
+
+/* ===== MEDIA QUERY PARA TELAS MENOR QUE 412px ===== */
+
+@media (max-width: 412px) {
+
+    /* Estilização geral da seção de dicas */
+    .dicas {
+        background-color: #b9b9b9;
+        /* Define um fundo cinza claro */
+        padding: 12%;
+        /* Adiciona espaçamento interno em torno do conteúdo */
+        text-align: center;
+        /* Centraliza o texto */
+    }
+
+    /* Estilo para o título dentro da seção de dicas */
+    .dicas h1 {
+        font-size: 40px;
+        /* Ajusta o tamanho da fonte */
+    }
+}

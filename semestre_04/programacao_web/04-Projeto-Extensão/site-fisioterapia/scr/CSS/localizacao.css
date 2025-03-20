@@ -1,0 +1,392 @@
+/* ===== SEÇÃO DE LOCALIZAÇÃO ===== */
+
+/* Estiliza a div .localizacao para centralizar o conteúdo */
+.localizacao {
+    display: flex;
+    /* Usa o Flexbox para layout */
+    align-items: center;
+    /* Alinha os itens verticalmente no centro */
+    justify-content: center;
+    /* Alinha os itens horizontalmente no centro */
+}
+
+/* Estilo para o título da seção Localização */
+.localizacao h1 {
+    color: white;
+    /* Cor do texto em branco */
+    padding-bottom: 4%;
+    /* Espaço abaixo do título */
+    text-align: center;
+    /* Centraliza o texto */
+    margin-left: 0;
+    /* Remove a margem à esquerda */
+}
+
+/* Estilo para a imagem de localização */
+.localizacao img {
+    width: 75px;
+    /* Define a largura da imagem */
+    position: absolute;
+    /* Posiciona a imagem de forma absoluta */
+    left: 3%;
+    /* Posiciona a imagem na extremidade esquerda */
+    margin-left: 36%;
+    /* Ajusta o espaço à esquerda da imagem */
+    margin-bottom: 3.5%;
+}
+
+/* ===== MAPA GOOGLE ===== */
+
+/* Estiliza o contêiner do mapa */
+.GoogleMaps {
+    background-color: black;
+    /* Define o fundo como preto */
+    padding: 6.5%;
+    /* Adiciona espaçamento interno */
+    text-align: right;
+    /* Alinha o conteúdo à direita */
+    position: relative;
+    /* Permite o controle do posicionamento interno */
+}
+
+/* Estilo para o iframe (mapa embutido) */
+iframe {
+    height: 500px;
+    /* Define a altura do iframe */
+    width: 500px;
+    /* Define a largura do iframe */
+    border: 2px solid black;
+    /* Adiciona borda preta ao redor do mapa */
+    box-shadow: 0 0 0 4px rgb(201, 201, 201);
+    /* Adiciona sombra suave ao redor do iframe */
+    position: relative;
+    /* Posiciona o iframe de forma relativa */
+    z-index: 1;
+    /* Coloca o iframe acima do fundo */
+}
+
+/* Ajuste no iframe dentro de .GoogleMaps */
+.GoogleMaps iframe {
+    z-index: 1;
+    /* Define a prioridade do iframe */
+}
+
+/* ===== HASHTAGS ===== */
+
+/* Estiliza as imagens das hashtags */
+.HashTags1,
+.HashTags2 {
+    position: absolute;
+    /* Posiciona as imagens de forma absoluta */
+    z-index: 0;
+    /* Coloca as hashtags abaixo de outros elementos */
+}
+
+/* Estilo para as imagens das hashtags */
+.HashTags1 img,
+.HashTags2 img {
+    width: 500px;
+    /* Define a largura das imagens das hashtags */
+}
+
+/* Posição das hashtags 1 e 2 */
+.HashTags1 {
+    bottom: 35%;
+    /* Posiciona a primeira hashtag 8% acima da parte inferior */
+    right: -1%;
+    /* Ajusta a posição à direita */
+}
+
+.HashTags2 {
+    bottom: 1%;
+    /* Posiciona a segunda hashtag 6% abaixo da parte inferior */
+    right: 15%;
+    /* Ajusta a posição à direita */
+}
+
+/* ===== SETA DE LOCALIZAÇÃO ===== */
+
+/* Estiliza a seta de localização */
+.SetaLocalizacao {
+    position: absolute;
+    /* Posiciona a seta de forma absoluta */
+    z-index: 2;
+    /* Coloca a seta acima de outros elementos */
+    left: -65%;
+    /* Posiciona a seta bem à esquerda */
+    top: 50%;
+    /* Alinha a seta verticalmente ao centro */
+    transform: translateY(-50%);
+    /* Ajusta a seta para centralizar verticalmente */
+}
+
+/* Estilo da imagem da seta */
+.SetaLocalizacao img {
+    height: auto;
+    /* Ajusta a altura automaticamente */
+    width: 16%;
+    /* Define a largura da seta */
+}
+
+/* ===== PIN DE LOCALIZAÇÃO ===== */
+
+/* Estiliza o pin de localização */
+.Pin {
+    position: absolute;
+    /* Posiciona o pin de forma absoluta */
+    right: 26em;
+    /* Ajusta a posição do pin à direita */
+    top: 16em;
+    /* Ajusta a posição do pin para cima */
+}
+
+/* Estilo da imagem do pin */
+.Pin img {
+    height: auto;
+    /* Ajusta a altura automaticamente */
+    width: 100px;
+    /* Define a largura do pin */
+}
+
+/* =================== RESPONSIVIDADE PARA TELAS PEQUENAS =================== */
+
+/* Media Query para telas com largura até 1299px */
+@media (max-width: 1299px) {
+
+    /* Esconde a seta de localização em telas menores */
+    .SetaLocalizacao {
+        display: none;
+    }
+
+    /* Estilo para o contêiner do iframe no layout responsivo */
+    .container-iframe {
+        display: flex;
+        /* Usa Flexbox para o layout */
+        justify-content: center;
+        /* Centraliza o iframe horizontalmente */
+        align-items: center;
+        /* Centraliza o iframe verticalmente */
+        height: 100vh;
+        /* Ocupa toda a altura da tela */
+    }
+
+    /* Ajuste no iframe para telas menores */
+    iframe {
+        height: 800px;
+        /* Aumenta a altura do iframe */
+        width: 800px;
+        /* Aumenta a largura do iframe */
+        border: 2px solid black;
+        /* Borda preta */
+        box-shadow: 0 0 0 4px rgb(201, 201, 201);
+        /* Sombra suave */
+        position: absolute;
+        /* Posiciona o iframe de forma absoluta */
+        z-index: 1;
+        /* Coloca o iframe acima de outros elementos */
+    }
+
+    /* Ajusta a posição do pin para telas menores */
+    .Pin {
+        position: absolute;
+        z-index: 1;
+        /* Coloca o pin acima de outros elementos */
+        right: 31em;
+        /* Ajusta a posição à direita */
+        top: 8em;
+        /* Ajusta a posição para cima */
+    }
+
+    /* Ajusta o tamanho do pin */
+    .Pin img {
+        height: auto;
+        /* Ajusta a altura automaticamente */
+        width: 150px;
+        /* Define a largura do pin */
+    }
+
+    /* Alinha a imagem e o texto de localização */
+    .localizacao {
+        display: flex;
+        /* Aplica Flexbox para alinhamento */
+        align-items: center;
+        /* Alinha os itens verticalmente */
+        justify-content: center;
+        /* Centraliza os itens horizontalmente */
+        padding-top: 10%;
+        /* Adiciona espaçamento superior */
+    }
+
+    /* Estilo para o título da seção de localização */
+    .localizacao h1 {
+        color: white;
+        /* Cor do texto em branco */
+        margin: 0;
+        /* Remove a margem do título */
+        font-size: 40px;
+        /* Ajusta o tamanho da fonte */
+    }
+
+    /* Ajusta a imagem da localização */
+    .localizacao img {
+        width: 180px;
+        /* Ajusta a largura da imagem */
+        margin-top: 35px;
+        /* Espaço entre a imagem e o texto */
+        left: -100px;
+        /* Ajuste de posição */
+    }
+
+    /* Ajusta as imagens das hashtags para telas menores */
+    .HashTags1 img,
+    .HashTags2 img {
+        width: 1000px;
+        /* Aumenta a largura das imagens */
+    }
+
+    /* Ajuste de posição das hashtags para telas menores */
+    .HashTags1 {
+        bottom: 7%;
+        /* Ajusta a posição da primeira hashtag */
+        right: -30%;
+        /* Ajusta a posição da primeira hashtag à direita */
+    }
+
+    .HashTags2 {
+        bottom: -20%;
+        /* Ajusta a posição da segunda hashtag */
+        right: 30%;
+        /* Ajusta a posição da segunda hashtag à direita */
+    }
+}
+
+/* ===== MEDIA QUERY PARA TELAS MENOR QUE 1300px ===== */
+
+
+@media (max-width: 1300px) {
+
+    /* Ajusta a imagem da localização */
+    .localizacao img {
+        width: 75px;
+        /* Ajusta a largura da imagem */
+        margin-top: 1%;
+        /* Espaço entre a imagem e o texto */
+        left: -8%;
+        /* Ajuste de posição */
+    }
+
+    /* Ajusta as imagens das hashtags para telas menores */
+    .HashTags1 img,
+    .HashTags2 img {
+        width: 800px;
+        /* Aumenta a largura das imagens */
+    }
+
+    /* Ajuste de posição das hashtags para telas menores */
+    .HashTags1 {
+        bottom: 24%;
+        /* Ajusta a posição da primeira hashtag */
+        right: -14%;
+        /* Ajusta a posição da primeira hashtag à direita */
+    }
+
+    .HashTags2 {
+        bottom: 1%;
+        /* Ajusta a posição da segunda hashtag */
+        right: 35%;
+        /* Ajusta a posição da segunda hashtag à direita */
+    }
+}
+
+/* ===== MEDIA QUERY PARA TELAS MENOR QUE 412px ===== */
+
+@media (max-width: 412px) {
+
+    /* Ajusta a posição do pin para telas menores */
+    .Pin {
+        position: absolute;
+        z-index: 1;
+        /* Coloca o pin acima de outros elementos */
+        left: 1em;
+        /* Ajusta a posição à direita */
+        top: 6em;
+        /* Ajusta a posição para cima */
+    }
+
+    /* Ajusta o tamanho do pin */
+    .Pin img {
+        height: auto;
+        /* Ajusta a altura automaticamente */
+        width: 80px;
+        /* Define a largura do pin */
+    }
+
+    .localizacao h1 {
+        color: white;
+        /* Cor do texto em branco */
+        margin: 0;
+        /* Remove a margem do título */
+        font-size: 40px;
+        /* Ajusta o tamanho da fonte */
+    }
+
+    /* Ajusta a imagem da localização */
+    .localizacao img {
+        width: 55px;
+        /* Ajusta a largura da imagem */
+        margin-top: 8px;
+        /* Espaço entre a imagem e o texto */
+        left: -125px;
+        /* Ajuste de posição */
+    }
+
+    /* Estilo para o contêiner do iframe no layout responsivo */
+    .container-iframe {
+        display: flex;
+        /* Usa Flexbox para o layout */
+        justify-content: center;
+        /* Centraliza o iframe horizontalmente */
+        align-items: center;
+        /* Centraliza o iframe verticalmente */
+        height: 50vh;
+        /* Ocupa toda a altura da tela */
+    }
+
+    /* Ajuste no iframe para telas menores */
+    iframe {
+        height: 300px;
+        /* Aumenta a altura do iframe */
+        width: 300px;
+        /* Aumenta a largura do iframe */
+        border: 2px solid black;
+        /* Borda preta */
+        box-shadow: 0 0 0 4px rgb(201, 201, 201);
+        /* Sombra suave */
+        position: absolute;
+        /* Posiciona o iframe de forma absoluta */
+        z-index: 1;
+        /* Coloca o iframe acima de outros elementos */
+    }
+
+    /* Ajusta as imagens das hashtags para telas menores */
+    .HashTags1 img,
+    .HashTags2 img {
+        width: 300px;
+        /* Aumenta a largura das imagens */
+    }
+
+    /* Ajuste de posição das hashtags para telas menores */
+    .HashTags1 {
+        bottom: 35%;
+        /* Ajusta a posição da primeira hashtag */
+        right: -14%;
+        /* Ajusta a posição da primeira hashtag à direita */
+    }
+
+    .HashTags2 {
+        bottom: 4%;
+        /* Ajusta a posição da segunda hashtag */
+        right: 35%;
+        /* Ajusta a posição da segunda hashtag à direita */
+    }
+}

@@ -1,0 +1,171 @@
+/* Estilo global */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Cabeçalho principal */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Seções */
+section {
+    margin-bottom: 40px;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Título das seções */
+section h2 {
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    color: #343a40;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+form label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    width: 100%;
+    color: #495057;
+}
+
+form input, form select, form button {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fafafa;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+form input[type="text"], form input[type="email"], form input[type="number"], form select {
+    width: calc(50% - 15px); /* Ajusta os campos para ficarem mais largos */
+}
+
+/* Estilo dos botões */
+form button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    border-radius: 8px;
+}
+
+form button:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+form button:active {
+    transform: translateY(0);
+}
+
+/* Botão de excluir */
+button.delete {
+    background-color: #FF4D4D;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-left: -2px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.delete:hover {
+    background-color: #E60000;
+    transform: translateY(-2px);
+}
+
+button.delete:active {
+    transform: translateY(0);
+}
+
+button.edit {
+    background-color: #FFC107;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.edit:hover {
+    background-color: #E0A800;
+    transform: translateY(-2px);
+}
+
+button.edit:active {
+    transform: translateY(0);
+}
+
+/* Estilos para as listas de usuários, livros e empréstimos */
+#usuarios, #livros, #emprestimos {
+    margin-top: 20px;
+}
+
+.usuario, .livro, .emprestimo {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.usuario:hover, .livro:hover, .emprestimo:hover {
+    background: #f1f1f1;
+}
+
+.usuario strong, .livro strong, .emprestimo strong {
+    font-weight: bold;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    form input[type="text"], form input[type="email"], form input[type="number"], form select {
+        width: 100%;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,94 @@
+/* ===== SEÇÃO DE SETA ===== */
+
+/* Estiliza a imagem da seta */
+.seta img {
+    position: absolute;
+    /* Posiciona a seta de forma absoluta */
+    top: 50%;
+    /* Alinha a seta verticalmente ao centro */
+    left: 60px;
+    /* Posiciona a seta à esquerda */
+    transform: translateY(-50%);
+    /* Ajusta a seta para centralizar verticalmente */
+}
+
+/* ===== RETÂNGULO AMARELO ===== */
+
+/* Estiliza o retângulo amarelo */
+.retangulo {
+    background-color: yellow;
+    /* Define a cor de fundo do retângulo como amarelo */
+    height: 300px;
+    /* Define a altura do retângulo */
+    width: 100px;
+    /* Define a largura do retângulo */
+    position: absolute;
+    /* Posiciona o retângulo de forma absoluta */
+    left: 50%;
+    /* Posiciona o retângulo horizontalmente ao centro */
+    transform: translate(-50%, -50%) rotate(75deg);
+    /* Centraliza o retângulo e o rotaciona 75 graus */
+    z-index: 1;
+    /* Define a camada do retângulo, permitindo que outros elementos fiquem acima */
+    border: 2px solid black;
+    /* Adiciona uma borda preta ao retângulo */
+}
+
+/* Estiliza a imagem dentro do retângulo */
+.retangulo img {
+    height: auto;
+    /* Ajusta a altura da imagem automaticamente */
+    width: 75px;
+    /* Define a largura da imagem */
+    position: absolute;
+    /* Posiciona a imagem de forma absoluta dentro do retângulo */
+    top: 50%;
+    /* Posiciona a imagem verticalmente ao centro */
+    left: 50%;
+    /* Posiciona a imagem horizontalmente ao centro */
+    transform: translate(-50%, -50%) rotate(-75deg);
+    /* Ajusta a imagem para centralizar e rotaciona em sentido oposto */
+    filter: brightness(0);
+    /* Aplica um filtro para escurecer a imagem (brilho 0) */
+}
+
+/* ===== MEDIA QUERY PARA TELAS MENOR QUE 412px ===== */
+
+@media (max-width: 412px) {
+    .retangulo {
+        background-color: yellow;
+        /* Define a cor de fundo do retângulo como amarelo */
+        height: 125px;
+        /* Define a altura do retângulo */
+        width: 40px;
+        /* Define a largura do retângulo */
+        position: absolute;
+        /* Posiciona o retângulo de forma absoluta */
+        left: 50%;
+        /* Posiciona o retângulo horizontalmente ao centro */
+        transform: translate(-50%, -50%) rotate(75deg);
+        /* Centraliza o retângulo e o rotaciona 75 graus */
+        z-index: 1;
+        /* Define a camada do retângulo, permitindo que outros elementos fiquem acima */
+        border: 2px solid black;
+        /* Adiciona uma borda preta ao retângulo */
+    }
+
+    /* Estiliza a imagem dentro do retângulo */
+    .retangulo img {
+        height: auto;
+        /* Ajusta a altura da imagem automaticamente */
+        width: 30px;
+        /* Define a largura da imagem */
+        position: absolute;
+        /* Posiciona a imagem de forma absoluta dentro do retângulo */
+        top: 50%;
+        /* Posiciona a imagem verticalmente ao centro */
+        left: 50%;
+        /* Posiciona a imagem horizontalmente ao centro */
+        transform: translate(-50%, -50%) rotate(-75deg);
+        /* Ajusta a imagem para centralizar e rotaciona em sentido oposto */
+        filter: brightness(0);
+        /* Aplica um filtro para escurecer a imagem (brilho 0) */
+    }
+}

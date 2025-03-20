@@ -1,0 +1,23 @@
+/* ===== RESET DE MARGEM E PADDING ===== */
+
+/* Remove margens e preenchimentos padrões de todos os elementos */
+* {
+    padding: 0; /* Remove o preenchimento (padding) de todos os elementos */
+    margin: 0; /* Remove a margem (margin) de todos os elementos */
+    box-sizing: border-box;
+}
+
+/* ===== ESTILIZAÇÃO DO BODY ===== */
+
+/* Estiliza o corpo da página */
+html{
+    background-color: #b9b9b9; 
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 100vw;
+    font-size: 25px; /* Define o tamanho da fonte como 25px */
+    font-family: 'ADLaM Display', sans-serif; /* Define a fonte como 'ADLaM Display' e, caso não esteja disponível, usa uma fonte sans-serif como fallback */
+    overflow-x: hidden; /* Desativa o deslocamento horizontal, impedindo que a página role horizontalmente */
+}

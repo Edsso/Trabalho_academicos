@@ -1,0 +1,89 @@
+(*1*)
+open System
+
+let divisor a b =
+    if a > b then
+        a / b
+    elif b > a then
+        b / a
+    else
+        1
+
+printfn "Digite o primeiro valor: "
+let a = int (System.Console.ReadLine())
+
+printfn "Digite o segundo valor: "
+let b = int (System.Console.ReadLine())
+
+let resultado = divisor a b 
+printfn "A divisão do maior pelo menor é: %i" resultado
+(*1*)
+
+
+(*2*)
+let classificar_Triangulo a b c =
+    if a + b <= c || a + c <= b || b + c <= a then
+        printfn "Não forma um triângulo."
+
+    elif a = b && b = c then
+        printfn "Triângulo equilátero."
+
+    elif a = b || b = c || a = c then
+        printfn "Triângulo isósceles."
+
+    else
+        printfn "Triângulo escaleno."
+
+printfn "Digite o primeiro lado: "
+let lado1 = float (System.Console.ReadLine())
+printfn "Digite o segundo lado: "
+let lado2 = float (System.Console.ReadLine())
+printfn "Digite o terceiro lado: "
+let lado3 = float (System.Console.ReadLine())
+
+classificar_Triangulo lado1 lado2 lado3
+(*2*)
+
+(*3*)
+let vetor = [0..20]
+
+let resultadoFiltrado =
+    vetor
+    |> List.filter (fun x -> x % 2 = 0)   // Filtra os valores pares
+    |> List.map (fun x -> x * 2)          // Multiplica cada valor por 2
+    |> List.filter (fun x -> x % 6 = 0)   // Filtra os múltiplos de 6
+
+printfn "Resultado: %A" resultadoFiltrado
+
+(*3*)
+
+(*4*)
+let resultadoNotas () =
+    let lerNotas () =
+        printfn "Digite a primeira nota: "
+        let nota1 = float (System.Console.ReadLine())
+        printfn "Digite a segunda nota: "
+        let nota2 = float (System.Console.ReadLine())
+        printfn "Digite a terceira nota: "
+        let nota3 = float (System.Console.ReadLine())
+        nota1, nota2, nota3
+
+    let calcularMedia nota1 nota2 nota3 =
+        (nota1 + nota2 + nota3) / 3.0
+
+    let verificarNota media =
+        media >= 6.0
+
+    let escreverMensagem aprovado =
+        if aprovado then
+            printfn "Aluno aprovado."
+        else
+            printfn "Aluno reprovado."
+
+    let nota1, nota2, nota3 = lerNotas()
+    let media = calcularMedia nota1 nota2 nota3
+    let aprovado = verificarNota media
+    escreverMensagem aprovado
+
+resultadoNotas()
+(*4*)

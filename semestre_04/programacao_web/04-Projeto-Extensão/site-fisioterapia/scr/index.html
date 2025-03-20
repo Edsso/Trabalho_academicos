@@ -1,0 +1,158 @@
+<!-- 
+Link para o design do site no Figma. É uma referência para o layout utilizado.
+https://www.figma.com/design/tISwP3KlUtBa48sdsFxxOT/Site-Fisioterapia-ProjetoExtensao
+-->
+
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <!-- Metadados -->
+    <meta charset="UTF-8"> <!-- Codificação de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ajusta a página para dispositivos móveis -->
+    <title>Fisioterapeuta</title> <!-- Título que aparece na aba do navegador -->
+
+    <!-- Links para estilos -->
+    <!-- Bootstrap CSS para estilização e responsividade -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/localizacao.css">
+    <link rel="stylesheet" href="CSS/dicas.css">
+    <link rel="stylesheet" href="CSS/seta.css">
+    <link rel="stylesheet" href="CSS/ver_mais.css">
+    <link rel="stylesheet" href="CSS/servicos_e_valores.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+
+    <!-- Fonte personalizada do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav>
+            <img src="Imagens/Logo.png" alt="">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+            </ul>
+        </nav>
+
+        <div class="miniheader"> <!-- Mini cabeçalho com links rápidos -->
+            <a href="#contato">Contato</a>
+            <a href="#whatsapp">WhatsApp</a>
+            <a href="#redesocial">Rede Social</a>
+        </div>
+        <div id="carousel-mainpage"></div> <!-- Espaço para o carrossel dinâmico -->
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Elemento decorativo em formato de retângulo com seta -->
+        <div class="retangulo">
+            <img src="Imagens/SetaBotao.png" alt="Seta">
+        </div>
+
+        <!-- Seção de Localização -->
+        <div id="localizacao" class="GoogleMaps">
+            <div class="localizacao"> <!-- Título e imagem da seção -->
+                <img src="Imagens/Mapinha.png" alt="Desenho Mapa">
+                <h1>Localização</h1>
+            </div>
+
+            <div class="SetaLocalizacao"> <!-- Imagem de seta decorativa -->
+                <img src="Imagens/SetaLocalizacao.png" alt="SetaLocalizacao">
+            </div>
+
+            <div class="Pin"> <!-- Ícone de pin para localização -->
+                <img src="Imagens/Pin.png" alt="Pin">
+            </div>
+
+            <!-- Mapa embutido com iframe do Google Maps -->
+            <div class="container-iframe">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3546.022169773439!2d-48.8532306!3d-27.281181000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df50c44b5ce52f%3A0xdba71e9a4617ff84!2sR.%20Alfredo%20Cuque%2C%20112%20-%20S%C3%A3o%20Jo%C3%A3o%20Batista%2C%20SC%2C%2088240-000!5e0!3m2!1spt-BR!2sbr!4v1731625136527!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- Ícones decorativos de hashtags -->
+            <div class="HashTags1">
+                <img src="Imagens/HashTag.png" alt="SuperiorDireito">
+            </div>
+            <div class="HashTags2">
+                <img src="Imagens/HashTag.png" alt="SuperiorDireito">
+            </div>
+        </div>
+
+        <!-- Outro retângulo decorativo com seta -->
+        <div class="retangulo">
+            <img src="Imagens/SetaBotao.png" alt="Seta">
+        </div>
+
+        <!-- Seção de Dicas -->
+        <div class="dicas">
+            <h1 id="dicas">DICAS</h1> <!-- Título da seção -->
+            <div id="card-mainpage"></div> <!-- Espaço para cards dinâmicos -->
+            <button id="toggleConteudo" class="btn btn-primary">Ver mais +</button>
+            <!-- Botão para exibir mais conteúdo -->
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="onda"> <!-- Imagem decorativa no rodapé -->
+            <img src="Imagens/Footer.png" alt="">
+        </div>
+
+        <div class="informacoes"> <!-- Informações de contato e redes sociais -->
+            <div class="falecmg">
+                <h3 id="whatsapp">Tem dúvida? manda uma mensagem no WhatsApp!!!</h3>
+                <a href="" target="_blank">
+                    <button>Fale Conosco no WhatsApp</button>
+                </a>
+            </div>
+            <div id="contato" class="contato">
+                <h3>Contato</h3>
+                <p>+55 47</p>
+            </div>
+            <div class="local">
+                <h3>Localização</h3>
+                <p>R.</p>
+            </div>
+
+            <div class="redesocial">
+                <h3 id="redesocial">Rede Social</h3>
+                <div class="instagram">
+                    <a href="" target="_blank">
+                        <img src="Imagens/icone-instagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Informações de créditos -->
+        <div class="info-criadores">
+            <p>Site criado por: D, E, L, C</p>
+            <p>&copy; Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts externos -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS do Bootstrap -->
+    <script src="Scripts/scripts.js"></script> <!-- Arquivo de scripts personalizados -->
+    <script src="Scripts/mobile-navbar.js"></script> <!-- Arquivo de scripts personalizados -->
+</body>
+
+</html>

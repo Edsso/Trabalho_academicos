@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\comba\Desktop\Web\Quartus\TrabalhoArquitetura\simulation\qsim
+vrisc_v32i
+Z1 !s100 SB9IX3z2143z;VoRYmND;2
+Z2 I_<cATQ6`E7JeQ@1JoB4>X0
+Z3 Vno^Gc=8_C1UE2Kz<?8O`c3
+Z4 dC:\Users\8046514\Downloads\M3 Trabalho ULA (Douglas, Edson e Gustavo Trindade)\simulation\qsim
+Z5 w1720125643
+Z6 8risc_v32i.vo
+Z7 Frisc_v32i.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|risc_v32i.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1720136725.037000
+Z12 !s107 risc_v32i.vo|
+!s101 -O0
+vrisc_v32i_vlg_check_tst
+!i10b 1
+Z13 !s100 gXAolC>cX51aFZFl@F8YD3
+Z14 Ibc7E2RiZN;llZW4GFXh7Y0
+Z15 VIkQg5jS;lbk9mJ8LPIdnB1
+R4
+Z16 w1720136724
+Z17 8risc_v32i.vt
+Z18 Frisc_v32i.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1720136725.132000
+Z20 !s107 risc_v32i.vt|
+Z21 !s90 -work|work|risc_v32i.vt|
+!s101 -O0
+R10
+vrisc_v32i_vlg_sample_tst
+!i10b 1
+Z22 !s100 LVR:ae^Z592_Y;GdcjhP;3
+Z23 Inz]_mMfC<^SKLN>UA0c@e1
+Z24 V7W<nkR1Zhj3OXg>aSh_]d1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vrisc_v32i_vlg_vec_tst
+!i10b 1
+!s100 ;GMOYXeVoiomhf_LcekF21
+I`iB15]?`@J`9`3_@d;:kI3
+Z25 VboV;EYL@AHUPV:V?og72Y1
+R4
+R16
+R17
+R18
+Z26 L0 3700
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

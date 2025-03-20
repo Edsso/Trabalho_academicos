@@ -1,0 +1,74 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(57, 57, 57);
+    background: linear-gradient(45deg, rgb(31, 31, 31) 0%, rgb(120, 120, 120) 35%, rgb(0, 0, 0) 100%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: rgb(66, 66, 66);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+h1{
+    text-align: center;
+}
+
+.form-grupo{
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+}
+
+#confirmar-btn{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+    display: block;
+    transition: ease 0.3s;
+}
+
+#confirmar-btn:hover{
+    cursor: pointer;
+    background-color: rgb(18, 182, 18);
+    transform: scale(1.1);
+}
+
+#statusPagamento{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}

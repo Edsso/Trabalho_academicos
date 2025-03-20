@@ -1,0 +1,87 @@
+/* ===== SEÇÃO ADICIONAR ===== */
+
+/* Define a cor de fundo para o corpo da página */
+body {
+    background-color: black; /* Fundo preto */
+}
+
+/* ===== ESTILIZAÇÃO DA SEÇÃO CONTAINER ===== */
+
+/* Define o estilo do contêiner principal */
+.container {
+    width: 800px; /* Largura fixa do contêiner */
+    margin: 10% auto; /* Centraliza o contêiner vertical e horizontalmente */
+    padding: 50px; /* Espaçamento interno */
+    background: #b9b9b9; /* Cor de fundo cinza claro */
+}
+
+/* ===== TÍTULO ===== */
+
+/* Estilo para o título principal */
+h1 {
+    text-align: center; /* Centraliza o texto */
+    color: black; /* Cor preta do texto */
+    padding-bottom: 5%; /* Espaçamento abaixo do título */
+}
+
+/* ===== FORMULÁRIO ===== */
+
+/* Define o layout geral do formulário */
+.form-container {
+    display: flex; /* Define um contêiner flexível */
+    flex-direction: column; /* Alinha os itens em coluna */
+    gap: 10px; /* Espaçamento entre os elementos do formulário */
+}
+
+/* Define o layout para cada linha do formulário */
+.form-row {
+    display: flex; /* Define um contêiner flexível */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    gap: 20px; /* Espaçamento entre os itens da linha */
+}
+
+/* ===== ROTULOS E CAMPOS ===== */
+
+/* Estilo para os rótulos */
+label {
+    font-weight: bold; /* Texto em negrito */
+    color: black; /* Cor preta do texto */
+    white-space: nowrap; /* Evita quebra de linha no texto */
+    width: 150px; /* Largura fixa para os rótulos */
+    text-align: center; /* Centraliza o texto dentro do rótulo */
+}
+
+/* Estilo para campos de entrada e texto */
+input, textarea {
+    flex: 1; /* Faz com que os campos preencham o espaço disponível */
+    padding: 5px; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho da fonte */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui bordas no cálculo da largura/altura */
+}
+
+/* Estilo adicional para campos de texto multilinha */
+textarea {
+    resize: none; /* Impede o redimensionamento do campo */
+    height: 80px; /* Altura fixa */
+}
+
+/* ===== BOTÃO ===== */
+
+/* Estilo para o botão dentro do formulário */
+.form-container button {
+    padding: 5px 10px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    color: black; /* Cor preta do texto */
+    background-color: yellow; /* Fundo amarelo */
+    border: none; /* Remove bordas */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    align-self: center; /* Centraliza o botão no contêiner */
+}
+
+/* Estilo para o botão ao passar o cursor */
+button:hover {
+    background-color: rgb(255, 220, 0); /* Amarelo mais escuro */
+}

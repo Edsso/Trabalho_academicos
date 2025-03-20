@@ -1,0 +1,223 @@
+/* ===== ESTILO DO RODAPÉ ===== */
+
+/* Estilização geral do rodapé */
+footer {
+    position: relative;
+    /* Permite o controle da posição do rodapé em relação ao layout */
+    color: yellow;
+    /* Define a cor do texto como amarelo */
+    background-color: #b9b9b9;
+    /* Define um fundo cinza claro */
+    width: 100%;
+}
+
+/* ===== IMAGEM ONDA ===== */
+
+/* Estiliza a imagem da onda no rodapé */
+.onda img {
+    position: absolute;
+    /* Posiciona a imagem de forma absoluta */
+    bottom: -2%;
+    /* A imagem ficará um pouco abaixo da base do rodapé */
+    width: 100%;
+    /* A imagem ocupará toda a largura do rodapé */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+/* ===== SEÇÃO DE INFORMAÇÕES ===== */
+
+/* Estiliza o contêiner das informações de contato, localização e redes sociais */
+.informacoes {
+    display: flex;
+    /* Utiliza o modelo de layout flexbox */
+    justify-content: space-between;
+    /* Distribui o conteúdo com espaçamento igual entre os itens */
+    text-align: center;
+    /* Centraliza o texto dentro da seção */
+    width: 100%;
+    /* O conteúdo ocupará toda a largura disponível */
+    padding-top: 10%;
+    /* Adiciona espaço acima do conteúdo */
+    padding-left: 8%;
+    /* Espaço à esquerda */
+    padding-right: 8%;
+    /* Espaço à direita */
+    position: relative;
+    /* Permite controle de posicionamento dentro da seção */
+}
+
+/* ===== SEÇÕES DE LOCAL, CONTATO E REDE SOCIAL ===== */
+
+/* Estiliza as seções de Localização, Contato e Redes Sociais */
+.local,
+.contato,
+.redesocial {
+    text-align: center;
+    /* Centraliza o texto em cada seção */
+    justify-content: space-between;
+    /* Distribui o conteúdo com espaçamento */
+    padding-top: 4%;
+    /* Espaço acima de cada seção */
+    padding-right: 6%;
+    /* Espaço à direita */
+    white-space: nowrap;
+    /* Impede que o texto quebre em várias linhas */
+}
+
+/* ===== BOTÕES ===== */
+
+/* Estiliza os botões */
+button {
+    border: 2px solid yellow;
+    /* Adiciona uma borda amarela */
+    background-color: yellow;
+    /* Define o fundo do botão como amarelo */
+}
+
+/* ===== TÍTULOS DAS INFORMAÇÕES ===== */
+
+/* Estilo para os títulos dentro da seção de informações */
+.informacoes h3 {
+    font-size: 30px;
+    /* Define o tamanho da fonte para os títulos */
+}
+
+/* ===== PARÁGRAFOS DAS INFORMAÇÕES ===== */
+
+/* Estilo para os parágrafos dentro da seção de informações */
+.informacoes p {
+    display: flex;
+    /* Utiliza o layout flexbox para os parágrafos */
+    font-size: 70%;
+    /* Define um tamanho de fonte menor para os parágrafos */
+    padding-top: 4.4%;
+    /* Adiciona um pouco de espaço acima dos parágrafos */
+}
+
+/* ===== INFORMAÇÕES DOS CRIADORES ===== */
+
+/* Estiliza a seção de informações sobre os criadores do site */
+.info-criadores {
+    display: flex;
+    /* Flexbox para o layout */
+    justify-content: space-between;
+    /* Distribui o conteúdo com espaçamento */
+    padding-left: 1%;
+    /* Espaço à esquerda */
+    padding-right: 1%;
+    /* Espaço à direita */
+    font-size: 12px;
+    /* Define um tamanho de fonte pequeno */
+    margin-top: 5.9%;
+    /* Adiciona um espaço acima da seção */
+    position: relative;
+    /* Permite controle do posicionamento */
+}
+
+/* Estilo específico para a seção 'falecmg' */
+.falecmg {
+    padding-right: 20%;
+    /* Adiciona espaço à direita da seção */
+}
+
+/* ===== ESTILO DO INSTAGRAM ===== */
+
+/* Estiliza os links e imagens do Instagram */
+.instagram {
+    display: inline-block;
+    /* Permite que os elementos fiquem lado a lado */
+    margin: 10px;
+    /* Adiciona margem entre os itens */
+}
+
+.instagram img {
+    width: 50px;
+    /* Define a largura das imagens do Instagram */
+}
+
+/* ===== MEDIA QUERY PARA TELAS MENOR QUE 1299px ===== */
+
+@media (max-width: 1300px) {
+
+    /* Estiliza a imagem da onda no rodapé */
+
+    /* ===== IMAGEM ONDA ===== */
+
+    /* Estiliza a imagem da onda no rodapé */
+    .onda img {
+        position: absolute;
+        /* Posiciona a imagem de forma absoluta */
+        bottom: -2%;
+        /* A imagem ficará um pouco abaixo da base do rodapé */
+        width: 200%;
+        /* A imagem ocupará toda a largura do rodapé */
+        height: auto;
+        /* Mantém a proporção da imagem */
+    }
+
+    /* ===== INFORMAÇÕES ===== */
+    .informacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Centraliza os itens horizontalmente */
+        justify-content: center;
+        /* Centraliza os itens verticalmente */
+        text-align: center;
+        padding: 20px 10px;
+        position: relative;
+        bottom: 10%;
+        z-index: 1;
+        /* Garante que o texto fique sobre a imagem */
+    }
+
+    /* Títulos */
+    .informacoes h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    /* Parágrafos */
+    .informacoes p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    /* Redes Sociais */
+    .redesocial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .instagram img {
+        width: 30px;
+        /* Ajusta o tamanho da imagem */
+        margin-top: 5px;
+    }
+
+    /* Esconde a seção 'fale conosco' em telas menores */
+    .falecmg {
+        display: none;
+    }
+}
+
+/* ===== MEDIA QUERY PARA TELAS MENOR QUE 412px ===== */
+
+@media (max-width: 412px) {
+    /* ===== IMAGEM ONDA ===== */
+
+    /* Estiliza a imagem da onda no rodapé */
+    .onda img {
+        position: absolute;
+        /* Posiciona a imagem de forma absoluta */
+        bottom: -2%;
+        /* A imagem ficará um pouco abaixo da base do rodapé */
+        width: 400%;
+        /* A imagem ocupará toda a largura do rodapé */
+        height: auto;
+        /* Mantém a proporção da imagem */
+    }
+}

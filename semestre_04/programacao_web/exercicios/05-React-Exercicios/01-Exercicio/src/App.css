@@ -1,0 +1,38 @@
+body {
+  background-color: #e0f7fa;
+  font-family: "Arial", sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #001aff;
+}
+
+button {
+  background-color: #001aff;
+  color: #ffffff;
+  font-size: 1.2em;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #7482ff;
+}
+
+button:active {
+  background-color: #00251a;
+  transform: scale(0.98);
+}
