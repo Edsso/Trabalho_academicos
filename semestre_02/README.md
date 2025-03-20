@@ -16,7 +16,7 @@ Este repositório contém os trabalhos e projetos desenvolvidos durante o **segu
 - **[Trabalho 3 - Labirinto](./algoritmos_e_programacao_2/03_labirinto.cpp)**
 
 ## ℹ️ Sobre os Projetos e Trabalhos de Algoritmos e Programação 2
-**Trabalho 1 - Termo:**  
+**Trabalho 1 - Termo:** 
 **Trabalho 2 - Manipulação de polinomios:**  
 **Trabalho 3 - Labirinto:** 
 
