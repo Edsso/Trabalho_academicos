@@ -21,9 +21,9 @@ Este repositório contém os trabalhos e projetos desenvolvidos durante o **terc
 - **[Trabalho 3 - Avaliação](./arquitetura_e_organizacao_de_processadores/03_Avaliação)**
 
 ## ℹ️ Sobre os Projetos e Trabalhos de Arquitetura e Organizações de Processadores
-**Trabalho 1 - Avaliação:**  
-**Trabalho 2 - Avaliação:**  
-**Trabalho 3 - Avaliação:**  
+**Trabalho 1 - Avaliação:** 
+**Trabalho 2 - Avaliação:** 
+**Trabalho 3 - Avaliação:** 
 
 ## 🚀 Projetos e Trabalhos de Estrutura de Dados
 - **[Trabalho 1 - Lista Linear](./estrutura_de_dados/M1_Lista_Lineares/Main.cpp)**
