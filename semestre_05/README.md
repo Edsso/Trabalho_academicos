@@ -7,7 +7,7 @@ Este repositório contém os trabalhos e projetos desenvolvidos durante o primei
 - **Engenharia de Software II**
 - **Estatística**
 - **Programação para Dispositivos Móveis**
-- **Sistemas Operacionais**
+- **Sistemas Operacionais** 
 
 ## 💻 Tecnologias Utilizadas
 
